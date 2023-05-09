@@ -31,8 +31,8 @@ public class TimeShower extends HttpServlet {
 		rDispatcher.include(req, res);
 		out.println("<h1>"+country+"--------"+sdf.format(Calendar.getInstance().getTime())+"</h1>");
 		}
-		catch (Exception ee) {
-			System.out.println(ee);
+		catch (Exception eee) {
+			System.out.println(eee);
 		}
 		
 	}
